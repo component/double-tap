@@ -12,7 +12,7 @@
 ## Example
 
 ```js
-doubletap(box, function() {
+doubletap(box, function(e) {
   box.style.backgroundColor = randomColor();
 });
 ```
@@ -29,7 +29,7 @@ doubletap(box, function() {
 
 ## TODO
 
-- normalize the event object. right now depending on if the device supports touch or not, the event object will be different (ex. no e.pageX on mobile)
+- normalize the event object. right now depending on if the device supports touch or not, the event object will be different (ex. no `e.pageX` on mobile)
 
 ## License
 
