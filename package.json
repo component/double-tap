@@ -1,0 +1,14 @@
+{
+  "name": "double-tap-component",
+  "version": "0.0.1",
+  "description": "double tap on elements. supports touch and mouse devices",
+  "dependencies": {
+    "event-component": "*",
+    "tap-component": "*"
+  },
+  "component": {
+    "scripts": {
+      "double-tap/index.js": "index.js"
+    }
+  }
+}

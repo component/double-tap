@@ -29,7 +29,9 @@ doubletap(box, function(e) {
 
 ## TODO
 
-- normalize the event object. right now depending on if the device supports touch or not, the event object will be different (ex. no `e.pageX` on mobile)
+- normalize the event object in tap. right now depending on if the device supports touch or not, the event object will be different (ex. no `e.pageX` on mobile)
+
+- instead of handling click in doubleclick, move click logic to `component/tap`
 
 ## License
 
