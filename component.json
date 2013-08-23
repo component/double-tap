@@ -1,0 +1,17 @@
+{
+  "name": "double-tap",
+  "repo": "component/double-tap",
+  "description": "double tap on elements using touch supported devices",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/tap": "*",
+    "component/event": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
