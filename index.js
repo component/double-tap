@@ -60,8 +60,8 @@ Doubletap.prototype.ontap = function(e) {
   if (this.tapped) {
     this.tapped = false;
     if (this.id) clearTimeout(this.id);
-    if (abs(x - this.x) > 25) return this;
-    if (abs(y - this.y) > 25) return this;
+    if (abs(x - this.x) > 50) return this;
+    if (abs(y - this.y) > 50) return this;
     this.fn(e);
   } else {
     this.tapped = true;
