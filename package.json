@@ -3,8 +3,12 @@
   "version": "0.0.2",
   "description": "double tap on elements. supports touch and mouse devices",
   "dependencies": {
-    "event-component": "*",
-    "tap-component": "*"
+    "component-event": "*",
+    "component-tap": "*"
+  },
+  "browser": {
+    "event": "component-event",
+    "tap": "component-tap"
   },
   "component": {
     "scripts": {
